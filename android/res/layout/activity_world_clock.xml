@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".WorldClock" >
+
+    <com.datibbaw.xkcdworldclock.ClockView
+        android:id="@+id/clockView"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_above="@+id/timeMode"
+        android:layout_centerHorizontal="true" />
+
+    <ToggleButton
+        android:id="@+id/timeMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="91dp"
+        android:textOff="Universal"
+        android:textOn="Local" />
+
+</RelativeLayout>
