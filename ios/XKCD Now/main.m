@@ -1,8 +1,8 @@
 //
 //  main.m
-//  XKCD World Clock
+//  XKCD Now
 //
-//  Created by Tjerk Anne Meesters on 7/3/14.
+//  Created by Tjerk Anne Meesters on 10/3/14.
 //  Copyright (c) 2014 Tjerk Anne Meesters. All rights reserved.
 //
 
