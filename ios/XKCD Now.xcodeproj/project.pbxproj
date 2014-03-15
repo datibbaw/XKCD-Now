@@ -19,9 +19,7 @@
 		0AC875AC18CCD81400F1C7F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AC8759418CCD81400F1C7F8 /* UIKit.framework */; };
 		0AC875C018CCD9A600F1C7F8 /* clockdial.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AC875BF18CCD9A600F1C7F8 /* clockdial.png */; };
 		0AC875C918CCDFF400F1C7F8 /* ClockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC875C818CCDFF400F1C7F8 /* ClockViewController.m */; };
-		0ADB92DB18D18433008F0423 /* InnerDialView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ADB92DA18D18433008F0423 /* InnerDialView.m */; };
-		0ADB92DE18D1942E008F0423 /* OuterDialView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ADB92DD18D1942E008F0423 /* OuterDialView.m */; };
-		0ADB92E118D1945E008F0423 /* ClockDialView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ADB92E018D1945E008F0423 /* ClockDialView.m */; };
+		0ADB92E418D41E19008F0423 /* ClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ADB92E318D41E19008F0423 /* ClockView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,12 +49,8 @@
 		0AC875BF18CCD9A600F1C7F8 /* clockdial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clockdial.png; sourceTree = "<group>"; };
 		0AC875C718CCDFF400F1C7F8 /* ClockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockViewController.h; sourceTree = "<group>"; };
 		0AC875C818CCDFF400F1C7F8 /* ClockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockViewController.m; sourceTree = "<group>"; };
-		0ADB92D918D18433008F0423 /* InnerDialView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InnerDialView.h; sourceTree = "<group>"; };
-		0ADB92DA18D18433008F0423 /* InnerDialView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InnerDialView.m; sourceTree = "<group>"; };
-		0ADB92DC18D1942E008F0423 /* OuterDialView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OuterDialView.h; sourceTree = "<group>"; };
-		0ADB92DD18D1942E008F0423 /* OuterDialView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OuterDialView.m; sourceTree = "<group>"; };
-		0ADB92DF18D1945E008F0423 /* ClockDialView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockDialView.h; sourceTree = "<group>"; };
-		0ADB92E018D1945E008F0423 /* ClockDialView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockDialView.m; sourceTree = "<group>"; };
+		0ADB92E218D41E19008F0423 /* ClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockView.h; sourceTree = "<group>"; };
+		0ADB92E318D41E19008F0423 /* ClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,12 +116,8 @@
 				0AC8759718CCD81400F1C7F8 /* Supporting Files */,
 				0AC875C718CCDFF400F1C7F8 /* ClockViewController.h */,
 				0AC875C818CCDFF400F1C7F8 /* ClockViewController.m */,
-				0ADB92D918D18433008F0423 /* InnerDialView.h */,
-				0ADB92DF18D1945E008F0423 /* ClockDialView.h */,
-				0ADB92E018D1945E008F0423 /* ClockDialView.m */,
-				0ADB92DC18D1942E008F0423 /* OuterDialView.h */,
-				0ADB92DD18D1942E008F0423 /* OuterDialView.m */,
-				0ADB92DA18D18433008F0423 /* InnerDialView.m */,
+				0ADB92E218D41E19008F0423 /* ClockView.h */,
+				0ADB92E318D41E19008F0423 /* ClockView.m */,
 			);
 			path = "XKCD Now";
 			sourceTree = "<group>";
@@ -238,11 +228,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0ADB92DB18D18433008F0423 /* InnerDialView.m in Sources */,
-				0ADB92E118D1945E008F0423 /* ClockDialView.m in Sources */,
-				0ADB92DE18D1942E008F0423 /* OuterDialView.m in Sources */,
 				0AC875A118CCD81400F1C7F8 /* AppDelegate.m in Sources */,
 				0AC8759D18CCD81400F1C7F8 /* main.m in Sources */,
+				0ADB92E418D41E19008F0423 /* ClockView.m in Sources */,
 				0AC875C918CCDFF400F1C7F8 /* ClockViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

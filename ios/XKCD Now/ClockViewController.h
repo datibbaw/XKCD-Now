@@ -12,6 +12,6 @@ typedef enum { LocalTime, UniversalTime } ClockMode;
 
 @interface ClockViewController : UIViewController
 
-- (void)setClockMode:(ClockMode)mode;
+//- (void)setClockMode:(ClockMode)mode;
 
 @end
