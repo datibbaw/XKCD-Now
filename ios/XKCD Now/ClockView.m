@@ -38,14 +38,6 @@
 
 - (void)setUp
 {
-//    CGImageRef image = [self getDialImage];
-
-//    innerDial = [self createInnerDial:image];
-//    outerDial = [self createOuterDial:image];
-//
-//    [self.layer addSublayer:outerDial];
-//    [self.layer addSublayer:innerDial];
-
     outerDial = [[ClockDialView alloc] initWithFrame:self.frame AndType:OuterClockDial];
     innerDial = [[ClockDialView alloc] initWithFrame:self.frame AndType:InnerClockDial];
     
@@ -55,7 +47,7 @@
 //    [self addGestureRecognizer:[[UIRotationGestureRecognizer alloc] initWithTarget:self action:@selector(handleRotation:)]];
     [self addGestureRecognizer:[[KTOneFingerRotationGestureRecognizer alloc] initWithTarget:self action:@selector(handleRotation:)]];
 
-//    [self setMode:TimeModeUniversal];
+    [self setMode:TimeModeUniversal];
 
     dateFormatter = [[NSDateFormatter alloc] init];
     dateFormatter.dateFormat = @"HH:mm";
