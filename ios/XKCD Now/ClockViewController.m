@@ -31,11 +31,12 @@
 - (void)loadView
 {
     CGRect frame = [[UIScreen mainScreen] applicationFrame];
+
     UIView *view = [[UIView alloc] initWithFrame:frame];
+    self.view = view;
 
     clock = [[ClockView alloc] initWithFrame:CGRectMake(0, 20, CGRectGetWidth(frame), CGRectGetWidth(frame))];
 
-    self.view = view;
     [self.view addSubview:clock];
 }
 

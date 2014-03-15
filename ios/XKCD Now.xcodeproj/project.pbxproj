@@ -20,6 +20,8 @@
 		0AC875C018CCD9A600F1C7F8 /* clockdial.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AC875BF18CCD9A600F1C7F8 /* clockdial.png */; };
 		0AC875C918CCDFF400F1C7F8 /* ClockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC875C818CCDFF400F1C7F8 /* ClockViewController.m */; };
 		0ADB92E418D41E19008F0423 /* ClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ADB92E318D41E19008F0423 /* ClockView.m */; };
+		0ADB92E718D45DFD008F0423 /* KTOneFingerRotationGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ADB92E618D45DFD008F0423 /* KTOneFingerRotationGestureRecognizer.m */; };
+		0ADB92EA18D47D1F008F0423 /* ClockDialView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ADB92E918D47D1F008F0423 /* ClockDialView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		0AC875C818CCDFF400F1C7F8 /* ClockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockViewController.m; sourceTree = "<group>"; };
 		0ADB92E218D41E19008F0423 /* ClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockView.h; sourceTree = "<group>"; };
 		0ADB92E318D41E19008F0423 /* ClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockView.m; sourceTree = "<group>"; };
+		0ADB92E518D45DFD008F0423 /* KTOneFingerRotationGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTOneFingerRotationGestureRecognizer.h; sourceTree = "<group>"; };
+		0ADB92E618D45DFD008F0423 /* KTOneFingerRotationGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTOneFingerRotationGestureRecognizer.m; sourceTree = "<group>"; };
+		0ADB92E818D47D1F008F0423 /* ClockDialView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockDialView.h; sourceTree = "<group>"; };
+		0ADB92E918D47D1F008F0423 /* ClockDialView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockDialView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +124,10 @@
 				0AC875C818CCDFF400F1C7F8 /* ClockViewController.m */,
 				0ADB92E218D41E19008F0423 /* ClockView.h */,
 				0ADB92E318D41E19008F0423 /* ClockView.m */,
+				0ADB92E518D45DFD008F0423 /* KTOneFingerRotationGestureRecognizer.h */,
+				0ADB92E618D45DFD008F0423 /* KTOneFingerRotationGestureRecognizer.m */,
+				0ADB92E818D47D1F008F0423 /* ClockDialView.h */,
+				0ADB92E918D47D1F008F0423 /* ClockDialView.m */,
 			);
 			path = "XKCD Now";
 			sourceTree = "<group>";
@@ -231,6 +241,8 @@
 				0AC875A118CCD81400F1C7F8 /* AppDelegate.m in Sources */,
 				0AC8759D18CCD81400F1C7F8 /* main.m in Sources */,
 				0ADB92E418D41E19008F0423 /* ClockView.m in Sources */,
+				0ADB92EA18D47D1F008F0423 /* ClockDialView.m in Sources */,
+				0ADB92E718D45DFD008F0423 /* KTOneFingerRotationGestureRecognizer.m in Sources */,
 				0AC875C918CCDFF400F1C7F8 /* ClockViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
